@@ -1,0 +1,32 @@
+.product-img {
+    max-width: 100%;
+}
+
+.title-product {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn-product {
+    font-size: 2rem;
+    background: transparent;
+    color: var(--primary-color);
+}
+
+.img .desc {
+    background-color: #fafafa;
+    padding: 10px 15px !important;
+    transition: all linear .3s;
+}
+
+.img:hover .desc {
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width:576px) {
+    .title-product {
+        font-size: 2rem;
+    }
+
+    
+}

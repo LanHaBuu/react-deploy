@@ -1,0 +1,29 @@
+.header-home {
+    background-image: url('../../assests/image/banner/header-banner.png');
+    background-size: cover;
+    height: 350px;
+}
+
+.slogan {
+    font-size: 56px;
+    color: var(--white-color);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.search {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.search-form {
+    padding: 50px 0;
+}
+
+@media (max-width:46.1875em) {
+    .slogan{
+        display: none;
+    }
+}

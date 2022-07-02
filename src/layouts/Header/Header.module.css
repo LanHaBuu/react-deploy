@@ -1,0 +1,145 @@
+/* Header header */
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 16px 50px 16px;
+    max-width: 1240px;
+    height: 133px;
+    align-items: center;
+}
+
+.logo {
+    width: 217px;
+    height: 53px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.product,
+.news,
+.user {
+    padding: 0px 15px 15px 15px;
+    margin: 0px 10px;
+    color: var(--white-color);
+    border-bottom: 3px solid transparent;
+    transition: all .4s ease;
+    background-color: transparent;
+}
+
+.product:hover,
+.news:hover,
+.user:hover {
+    color: #eee;
+    border-bottom: 3px solid var(--white-color);
+}
+
+.header-button {
+    animation: fadeIn ease-in-out .3s;
+}
+
+@keyframes fadeIn {
+    from {
+        top: 10%;
+        opacity: 0;
+    }
+    to {
+        top: 15%;
+        opacity: 1;
+    }
+}
+
+.cart-inner {
+    border: none;
+    font-size: 1.8rem;
+    padding: 5px 15px 5px 15px;
+    font-weight: inherit;
+    background-color: var(--primary-color);
+    transform: translateY(-8px);
+}
+
+.cart-item {
+    min-width: 370px;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.cart-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.cart-detail {
+    flex: 1;
+    font-size: 1.6rem;
+}
+
+.cart-icon-del {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.move-cart {
+    width: 170px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.6rem;
+    background-color: black;
+    margin: auto;
+    display: block;
+    text-align: center;
+    transition: all linear .3s;
+}
+
+.move-cart:hover {
+    color: white !important;
+    opacity: 0.8;
+}
+
+.menu-mobile {
+    font-size: 3rem;
+    display: none;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+
+@media (max-width:46.1875em) {
+
+    .menu-mobile {
+        display: block;
+    }
+    
+    .header {
+       height: 100%;
+    }
+
+    .header-button {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+        font-size: 2rem;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .product, .news, .user {
+        display: block;
+    }
+
+    .cart-inner {
+        transform: translateY(0);
+    }
+}

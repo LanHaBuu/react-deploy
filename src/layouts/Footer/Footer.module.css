@@ -1,0 +1,27 @@
+
+.buttons {
+    float: right;
+}
+
+.btn-footer {
+    margin-left: 20px;
+    color: white;
+}
+
+.btn-footer:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width:46.1875em) {
+    .logo-footer {
+        text-align: center;
+    }
+    .buttons {
+        text-align: center;
+        float: none;
+    }
+
+    .btn-footer {
+        display: block;
+    }
+}

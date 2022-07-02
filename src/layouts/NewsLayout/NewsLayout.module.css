@@ -1,0 +1,22 @@
+.header-news {
+    background-image: url('../../assests/image/banner/news-banner.png');
+    background-size: cover;
+    height: 350px;
+}
+
+.slogan {
+    font-size: 56px;
+    color: var(--white-color);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: -60px;
+}
+
+@media (max-width:576px) {
+    .slogan {
+        display: none;
+    }
+}
