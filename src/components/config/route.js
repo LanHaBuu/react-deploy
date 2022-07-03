@@ -1,5 +1,5 @@
 export const routeConfig = {
-	home: "/",
+	home: "/LanHaBuu.github.io/react-deploy",
 	news: "/news",
 	product: "/product",
 	oneproduct: "/product/:id",
