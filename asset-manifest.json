@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/LanHaBuu.github.io/react-deploy/static/css/main.ae11c5d0.css",
+    "main.js": "/LanHaBuu.github.io/react-deploy/static/js/main.70fdfc88.js",
+    "static/js/787.6dee276a.chunk.js": "/LanHaBuu.github.io/react-deploy/static/js/787.6dee276a.chunk.js",
+    "static/media/header-banner.png": "/LanHaBuu.github.io/react-deploy/static/media/header-banner.1ec9c8c73dfe4ba406e1.png",
+    "static/media/news-banner.png": "/LanHaBuu.github.io/react-deploy/static/media/news-banner.58bfaceb660251b67cb8.png",
+    "static/media/promo-banner-1-lg.png": "/LanHaBuu.github.io/react-deploy/static/media/promo-banner-1-lg.8e92a43989951f884117.png",
+    "static/media/promo-banner-3-lg.png": "/LanHaBuu.github.io/react-deploy/static/media/promo-banner-3-lg.72ec4dccd1d59161ade8.png",
+    "static/media/promo-banner-2-lg.png": "/LanHaBuu.github.io/react-deploy/static/media/promo-banner-2-lg.08297854ab2879e1acee.png",
+    "static/media/cart-empty.png": "/LanHaBuu.github.io/react-deploy/static/media/cart-empty.9bdd8040b334d31946f4.png",
+    "index.html": "/LanHaBuu.github.io/react-deploy/index.html",
+    "main.ae11c5d0.css.map": "/LanHaBuu.github.io/react-deploy/static/css/main.ae11c5d0.css.map",
+    "main.70fdfc88.js.map": "/LanHaBuu.github.io/react-deploy/static/js/main.70fdfc88.js.map",
+    "787.6dee276a.chunk.js.map": "/LanHaBuu.github.io/react-deploy/static/js/787.6dee276a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae11c5d0.css",
+    "static/js/main.70fdfc88.js"
+  ]
+}
