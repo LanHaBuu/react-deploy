@@ -1,5 +1,6 @@
 {
   "name": "obostadium",
+  "homepage": "http://lanhabuu.github.io/obostadium-ui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
